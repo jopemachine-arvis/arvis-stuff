@@ -48,3 +48,6 @@ Below is the list that I thought.
 
 * For example, when I would like to find some file through extension, I cannot find the file through only typing file name. I must type some command to execute the command. Finding file through just file name is not attainable through `workflow`, so alfred provides some builtin feature like file searching, calculating and other necessory utilitys. but I wanted try to make this process other kind of extension.
 
+5. **More convenient, experimental features support**
+
+* Pinning search window to check information more easily.
