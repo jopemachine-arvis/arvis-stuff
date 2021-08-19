@@ -1,4 +1,4 @@
-# The reason that I started to make Arvis
+# The reason that I started to making Arvis
 
 * Lots of alfred-workflows works in `cross-platform`. I always felt like I wanted to use Alfred's workflow when I used another OS.
 

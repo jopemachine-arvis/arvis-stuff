@@ -1,6 +1,14 @@
 # How workflow feature works
 
-## How workflow scripts are executed
+## How workflow's actions are executed
+
+workflow config (arvis-workflow.json) are loaded when arvis starts up in memory.
+
+and whenever user input changes arvis finds commands from there.
+
+when user press enter on a result, the command's 'action' is executed.
+
+## How workflow's scripts are executed
 
 workflow's source files are not loaded in arvis.
 
@@ -19,6 +27,3 @@ When the child process ends, child process's execution result are forwarded to a
 And the promise returns `stdout`, `stderr` of the child process.
 
 So, arvis can notify users the result of the script in their search window.
-
-## How workflow's actions are parsed
-
